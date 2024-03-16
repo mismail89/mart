@@ -1,0 +1,73 @@
+.main-card-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    box-shadow: 0px 0px 7px;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card .card-icons-div{
+    width: 30%;
+}
+.card-text{
+    width: 60%;
+}
+.card-text h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card .card-icons-div .icon-div{
+    width: 90%;
+    height: 50%;
+    background-color: #f7921d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .card-icons-div .icon-div h1{
+    font-size: 45px;
+}
+@media (max-width: 768px) {
+    .main-card-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .card{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .card-text{
+        width: 90%;
+    }
+    .main-card-parent{
+        width: 100%;
+        overflow: hidden;
+    }
+    .card-icons-div{
+        width: 100%;
+    }
+    .icon-div{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}

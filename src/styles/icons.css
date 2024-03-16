@@ -1,0 +1,66 @@
+#card{
+    width: 46%;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+#card a{
+    background-color: #f7921d;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+#card-text{
+    display: flex;
+    flex-direction: column;
+}
+#card-text a{
+    width: 50%;
+    text-align: center;
+}
+.icon-part-hero{
+    width: 100%;
+    height: 500px;
+}
+.icon-hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(15, 13, 13, 0.5);
+}
+.icon-part-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icon-part-text h1{
+    width: 60%;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.icon-part-text p{
+    width: 50%;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .icon-part-text h1{
+        width: 90%;
+        font-size: 30px;
+    }
+    .icon-part-text p{
+        width: 90%;
+        font-size: 20px;
+    }
+    #card{
+        width: 95%;
+    }
+}

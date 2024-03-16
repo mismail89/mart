@@ -1,0 +1,54 @@
+.main-hero-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-hero-image{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    
+}
+.main-hero-image h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.main-hero-section{
+    background-Color: rgba(19, 17, 17, 0.5);
+}
+.main-hero-image p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.main-hero-image a{
+    background-color: #f7921d;
+}
+@media (max-width: 768px) {
+    .main-hero-image{
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main-hero-image h1{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    .main-hero-image p{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 17px;
+    }
+}
